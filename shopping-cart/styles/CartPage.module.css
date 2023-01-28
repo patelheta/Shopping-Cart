@@ -1,0 +1,70 @@
+.card {
+  margin-bottom: 15px !important;
+  padding: 5px;
+}
+.container {
+  padding: 2rem 6rem;
+  text-align: center;
+  margin-top: 100px;
+}
+.header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header div {
+  flex: 1;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  margin-bottom: 2rem;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  align-items: center;
+}
+.details {
+  margin-left: 4rem;
+}
+.title {
+  margin-bottom: 15px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.buttons button {
+  min-width: auto;
+  padding: 2px 6px;
+}
+.btnDelete {
+  margin-left: 25px !important;
+}
+.quantity {
+  padding: 0px 10px;
+}
+.image img {
+  width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .container {
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .details {
+    margin-left: 0px;
+  }
+}
