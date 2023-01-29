@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
-import useCart from "@/hooks/useCart";
 
 const Navbar = () => {
   return (
@@ -11,7 +10,9 @@ const Navbar = () => {
           <Link href="/">Products</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/cart">Cart</Link>
+          <Link href="/cart">
+            <i className="fa-solid fa-cart-shopping"></i> Cart
+          </Link>
         </li>
       </ul>
     </nav>

@@ -6,11 +6,10 @@ export default function useCart() {
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    let defaultCart =
-      typeof window !== "undefined"
-        ? JSON.parse(localStorage.getItem("cart"))
-        : [];
-    setCart(defaultCart);
+    if (typeof window !== "undefined") {
+      let defaultCart = JSON.parse(localStorage.getItem("cart"));
+      setCart(defaultCart);
+    }
   }, []);
 
   const getTotalPrice = () => {
@@ -43,7 +42,7 @@ export default function useCart() {
   };
 
   const addToCart = (product) => {
-    const newCart = [...cart];
+    const newCart = cart ? [...cart] : [];
     const itemExists = newCart.find(
       (item) => item.productId === product.productId
     );
@@ -62,6 +61,7 @@ export default function useCart() {
     const index = newCart.findIndex((item) => item.productId === id);
     newCart.splice(index, 1);
     localStorage.setItem("cart", JSON.stringify(newCart));
+    toast.success("Remove successfully from cart");
     setCart(newCart);
   };
 

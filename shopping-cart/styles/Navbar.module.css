@@ -28,6 +28,10 @@
   text-decoration: none;
   color: black;
 }
+.navlink a:active {
+  padding-bottom: 5px;
+  border-bottom: 3px solid gray;
+}
 .navlink a:hover {
   color: #f9826c;
 }
