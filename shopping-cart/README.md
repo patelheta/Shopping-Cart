@@ -41,6 +41,23 @@ ShoppingCart is an ecommerce giftcards website, where users can buy giftcards, a
 - Remove product from the cart.
 - For payment select proceed to checkout button.
 
+## Functionality
+
+- View all products from Chimoney API
+- View Individual product detail
+- Toast will notify user when user do Add to cart
+- Toast will notify user when user do Remove from cart
+- View all cart products
+- User can increase or decrease product quantity into cart
+- implemented loading state feature
+
+## Future Improvement
+
+- User authentication
+- Chimoney Api integration for payment
+- Set custom giftcard amount
+- Add caching and pagination
+
 First, run the development server:
 
 ```bash
