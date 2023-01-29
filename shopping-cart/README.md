@@ -4,21 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ShoppingCart is an ecommerce giftcards website, where users can buy giftcards, add them into cart, remove from cart, and view giftcard details.
 
-## Final Product
-
 !["All Products Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_desktop.png?raw=true)
-!["Shopping Cart Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_desktop.png?raw=true)
-!["Product Detail Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Product_Detail_desktop.png?raw=true)
-!["Checkout Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Checkout_desktop.png?raw=true)
-!["Loading Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Loading_desktop.png?raw=true)
-!["Add to Cart Toast Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Add_To_Cart_Toast.png?raw=true)
-!["Remove From Cart Toast Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Remove_From_Cart_toast.png?raw=true)
-!["All Products tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_tablet.png?raw=true)
-!["Checkout tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Checkout_tablet.png?raw=true)
-!["Shopping Cart tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_tablet.png?raw=true)
-!["All Products mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_mobile.png?raw=true)
-!["Product Detail mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Product_Detail_mobile.png?raw=true)
-!["Shopping Cart mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_mobile.png?raw=true)
 
 ## Dependencies
 
@@ -75,3 +61,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Final Product
+
+!["All Products Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_desktop.png?raw=true)
+!["Shopping Cart Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_desktop.png?raw=true)
+!["Product Detail Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Product_Detail_desktop.png?raw=true)
+!["Checkout Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Checkout_desktop.png?raw=true)
+!["Loading Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Loading_desktop.png?raw=true)
+!["Add to Cart Toast Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Add_To_Cart_Toast.png?raw=true)
+!["Remove From Cart Toast Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Remove_From_Cart_toast.png?raw=true)
+!["All Products tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_tablet.png?raw=true)
+!["Checkout tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Checkout_tablet.png?raw=true)
+!["Shopping Cart tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_tablet.png?raw=true)
+!["All Products mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_mobile.png?raw=true)
+!["Product Detail mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Product_Detail_mobile.png?raw=true)
+!["Shopping Cart mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_mobile.png?raw=true)
