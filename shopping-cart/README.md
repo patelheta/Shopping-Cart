@@ -1,6 +1,45 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# ShoppingCart Project
+
+ShoppingCart is an ecommerce giftcards website, where users can buy giftcards, add them into cart, remove from cart, and view giftcard details.
+
+## Final Product
+
+!["All Products Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_desktop.png?raw=true)
+!["Shopping Cart Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_desktop.png?raw=true)
+!["Product Detail Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Product_Detail_desktop.png?raw=true)
+!["Checkout Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Checkout_desktop.png?raw=true)
+!["Loading Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Loading_desktop.png?raw=true)
+!["Add to Cart Toast Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Add_To_Cart_Toast.png?raw=true)
+!["Remove From Cart Toast Desktop Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Remove_From_Cart_toast.png?raw=true)
+!["All Products tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_tablet.png?raw=true)
+!["Checkout tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Checkout_tablet.png?raw=true)
+!["Shopping Cart tablet Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_tablet.png?raw=true)
+!["All Products mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/All_Products_mobile.png?raw=true)
+!["Product Detail mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Product_Detail_mobile.png?raw=true)
+!["Shopping Cart mobile Page Screenshot"](https://github.com/patelheta/Shopping-Cart/blob/main/shopping-cart/docs/Shopping_Cart_mobile.png?raw=true)
+
+## Dependencies
+
+- Next
+- Material icons
+- Material UI
+- Cypress
+- React toastify
+
 ## Getting Started
+
+- Install all dependencies (using the `npm install` command).
+- Run the development web server using the `npm run dev` command.
+- Go to `localhost:3000` on your browser.
+- View all products on product page.
+- Click on product to see product detail.
+- Add your favourite product to cart.
+- View all added to cart item on Shopping cart page.
+- Increase or decrease product quantity into cart.
+- Remove product from the cart.
+- For payment select proceed to checkout button.
 
 First, run the development server:
 
@@ -13,14 +52,6 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Deploy on Vercel
 
